@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "WeHoop",
   "resources": {
-    "hash": "sha256-UNGK9+uaW7fqweMxsmIjQRHhdEpcnMxuPrGN8jCRuoE=",
+    "hash": "sha256-dNmLeJYfm9ebN964Q9XEDVCW9+qcukJQRcBAltyrz70=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.4xsnm8lwn6.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -46,14 +46,14 @@
       "System.Text.Encodings.Web.wasm": "sha256-UkgC79Ct8CiZ4nXy7ResG8MslLgqxUkRe57mHuM5Fik=",
       "System.Text.Json.wasm": "sha256-UqvH0urhGXHQg3dry6VWXDzfdxh3xeMZ5J1BWda5WNM=",
       "System.Text.RegularExpressions.wasm": "sha256-wEHv8zSPfibWXTDcOYr6yaWO1ZDflORcHqJKw38gnAk=",
-      "WeHoop.wasm": "sha256-pL7VARWGbd2f5dq4D6QvifBtfqz91sjcKjvwNILNflE="
+      "WeHoop.wasm": "sha256-iuK9KFCPwE7GsUbfhYqpQHzs04W+Xf3s+wubf5sX1AA="
     },
     "satelliteResources": {
       "es-ES": {
-        "WeHoop.resources.wasm": "sha256-IIlsVPH2FVYZeQBZ92vpvqxIpqMUTJ2ZDYyIe15fVMQ="
+        "WeHoop.resources.wasm": "sha256-qXecA3H1Ra2cLFjrFLmGwX8m9ACtloV02+UK/HeFZUA="
       },
       "pt-BR": {
-        "WeHoop.resources.wasm": "sha256-zFVt2xUU08bE/gl0L5neaUURaMkLRyLnK5BxOEnrsLA="
+        "WeHoop.resources.wasm": "sha256-v3uVUKIFN7JPQx9zdlt1o9vzCqhibVbmqy6oC4EUdKs="
       }
     }
   },
