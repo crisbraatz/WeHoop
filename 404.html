@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>WeHoop</title>
+    <base href="/WeHoop"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+    <link href="WeHoop.styles.css" rel="stylesheet"/>
+
+    <link rel="icon" type="image/png" href="brand/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="brand/favicon.svg" />
+    <link rel="shortcut icon" href="brand/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="brand/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="WeHoop" />
+    <link rel="manifest" href="brand/site.webmanifest" />
+
+    <meta name="title" property="og:title" content="WeHoop">
+    <meta name="image" property="og:image" content="https://raw.githubusercontent.com/crisbraatz/WeHoop/refs/heads/gh-pages/brand/wehoop.png">
+    <meta name="description" property="og:description" content="We hoop!">
+    <meta name="author" content="Cristopher Braatz Cardoso">
+
+    <script type="text/javascript">
+        let pathSegmentsToKeep = 1;
+        let l = window.location;
+        l.replace(l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' + l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') + (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash);
+    </script>
+</head>
+
+<body style="background-color: #e5e5e5">
+</body>
+
+</html>

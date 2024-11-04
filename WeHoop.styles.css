@@ -1,0 +1,75 @@
+/* /Layout/NavBarGame.razor.rz.scp.css */
+.floating-logo-icon[b-mvs037z6yk] {
+    position: absolute;
+    top: 2vh;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 24px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.5);
+}
+/* /Pages/Index.razor.rz.scp.css */
+.landing-video[b-jg8pju5l9b] {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-video video[b-jg8pju5l9b] {
+    position: absolute;
+    height: auto;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    user-select: none;
+}
+
+.landing-video-button[b-jg8pju5l9b] {
+    position: absolute;
+    bottom: 5vh;
+}
+
+.section-margin[b-jg8pju5l9b] {
+    scroll-margin-top: 50px;
+}
+
+.bg-gradient[b-jg8pju5l9b] {
+    background: linear-gradient(45deg, #ffc0b1, #ff4418) !important;
+}
+/* /Pages/QuickGame.razor.rz.scp.css */
+.game-counter-area[b-26xw6abuo1] {
+    display: grid;
+    align-items: center;
+}
+
+.game-counter-dark[b-26xw6abuo1] {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.game-counter-light[b-26xw6abuo1] {
+    color: #e5e5e5;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+/* /Pages/SoloSession.razor.rz.scp.css */
+.game-counter-area[b-euojyduv08] {
+    display: grid;
+    align-items: center;
+}
+
+.game-counter-dark[b-euojyduv08] {
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.game-counter-light[b-euojyduv08] {
+    color: #e5e5e5;
+    font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
